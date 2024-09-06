@@ -1,0 +1,50 @@
+.container {
+   height: 100vh; /* Use a altura da viewport para garantir que o container ocupe toda a altura */
+   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(37,97,207,1) 50%, rgba(0,212,255,1) 100%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem; /* Adicione algum preenchimento para garantir que o conteúdo não encoste nas bordas */
+}
+
+.form {
+   width: 100%;
+   max-width: 25rem; /* Defina um max-width para a largura máxima da forma */
+   background-color: #ffffff; /* Use uma cor de fundo mais neutra */
+   padding: 2rem;
+   border-radius: 0.75rem; /* Menos arredondado, mas ainda elegante */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicione uma sombra para um efeito de elevação suave */
+}
+
+h1 {
+   margin-bottom: 1.5rem;
+   font-size: 1.5rem;
+   color: #333; /* Defina uma cor de texto mais escura para melhor legibilidade */
+}
+
+img {
+   height: auto; /* Deixe a altura automática para manter a proporção */
+   max-height: 10rem; /* Defina um valor máximo de altura para garantir que a imagem não fique muito grande */
+   width: auto;
+   display: block; /* Remova o alinhamento automático desnecessário */
+   margin: 0 auto 1.5rem;
+}
+
+.full-width {
+   width: 100%;
+}
+
+button {
+   margin-top: 1rem; /* Diminua a margem superior para um layout mais compacto */
+}
+
+mat-icon {
+   opacity: 0.6;
+}
+h1 {
+   margin-bottom: 1.5rem;
+   font-size: 1.5rem;
+   color: #333;
+   text-align: center; /* Garante que o texto esteja centralizado */
+   width: 100%;
+}
