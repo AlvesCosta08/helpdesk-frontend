@@ -44,11 +44,13 @@ button {
    border-radius: 0.5rem; /* Arredondamento dos cantos do botão */
    padding: 0.75rem 1.5rem; /* Preenchimento do botão */
    cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
-   transition: background-color 0.3s; /* Transição suave para mudança de cor */
+   transition: background-color 0.3s, color 0.3s; /* Transição suave para mudança de cor e texto */
+   font-size: 2rem;
 }
 
 button:hover {
    background-color: #005A9E; /* Azul mais escuro para efeito de hover */
+   color: #E0E0E0; /* Cor do texto alterada para um cinza claro quando o mouse passa */
 }
 
 mat-icon {
